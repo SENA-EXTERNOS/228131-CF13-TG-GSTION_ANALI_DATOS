@@ -1,14 +1,22 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    width: 70px
+    animation: scale 3.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
+    top: 18%
     right: 50%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    width: 80px
+    animation: scale 3.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 15%
+  &-3
+    width: 80px
+    animation: scale 3.8s ease-in-out infinite alternate
+    position: absolute
+    top: 55%
+    right: 60%
 
 
 @keyframes float1
@@ -17,3 +25,330 @@
 
   100%
     transform: translateY(0px)
+
+@-webkit-keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
+
+/// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #E8E8E8
+    border-radius: 15px
+    &:hover      
+      background: linear-gradient(180deg, #0768b8 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FCCB60
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #004E96
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.bloque-texto-e i:first-of-type
+    margin-right: 0px;
+
+.bloque-texto-d i
+    font-size: 1em;
+    color: #000000;
+
+.bloque-texto-d:before
+    top: 56%;
+    bottom: 16%;
+    left: 53%;
+
+.bloque-texto-e i
+    font-size: 1em;
+    color: #000000;
+
+.bloque-texto-e i:last-of-type
+  margin-left: 1px;
+  vertical-align: text-top;
+
+.color-bloque
+    background-color: #fee4ab;
+
+.bloque_vertical
+  max-width: 190px
+  min-height: 120px
+  background-image: url("../assets/curso/icono.svg")
+  background-repeat: no-repeat
+  background-position: top right
+
+.bloque_vertical2
+  max-width: 190px
+  min-height: 120px
+  background-image: url("../assets/curso/temas/tema1/img13.svg")
+  background-repeat: no-repeat
+  background-position: top right
+
+.bloque_vertical3
+  max-width: 190px
+  min-height: 120px
+  background-image: url("../assets/curso/temas/tema1/img24.svg")
+  background-repeat: no-repeat
+  background-position: top right
+
+.bloque_vertical4
+  max-width: 190px
+  min-height: 120px
+  background-image: url("../assets/curso/temas/tema1/img25.svg")
+  background-repeat: no-repeat
+  background-position: top right
+
+.bloque_vertical5
+  max-width: 190px
+  min-height: 120px
+  background-image: url("../assets/curso/temas/tema1/img32.svg")
+  background-repeat: no-repeat
+  background-position: top right
+
+
+.imgd
+  width: 150%;
+  border: solid;
+  border-style: dashed;
+  padding: 15px;
+
+.bloque-der
+  .bloque-texto-g__img
+    left: auto
+    right: 0
+    width: 40%
+  .bloque-texto-g
+    justify-content: start
+  .bloque-texto-g__texto--border
+    position: relative
+    width: 57%
+    border: 2px dashed #004B89
+  .bloque-texto-g__texto
+    width: 100%
+
+.bloque-izquierda
+  .bloque-texto-g__img
+    right: auto
+    left: 0
+  .bloque-texto-g
+    justify-content: right
+  .bloque-texto-g__texto--border
+    position: relative
+    width: 57%
+    border: 2px dashed #004B89
+  .bloque-texto-g__texto
+    width: 100%
+
+.bloque-derecha
+  .bloque-texto-g__img
+    left: auto
+    right: 0
+    width: 39%
+  .bloque-texto-g
+    justify-content: start
+  .bloque-texto-g__texto--border
+    position: relative
+    width: 67%
+  .bloque-texto-g__texto
+    width: 100%
+
+.bloque-izq
+  .bloque-texto-g__img
+    right: auto
+    left: 0
+    width: 40%
+  .bloque-texto-g__texto--border
+    position: relative
+    width: 57%
+    border: 2px dashed #004B89
+  .bloque-texto-g__texto
+    width: 100%
+
+.border-dash
+  border: 2px dashed #004B89
+
+.dots-editados
+  .infografica__item__dot:after ,,.img-infografica-b__item__dot:before
+    opacity: 1 !important
+  .img-infografica__item
+    opacity: 1 !important
+    transform: scale(2)
+  .img-infografica__item:hover .img-infografica-b__item__tooltip
+    display: none
+  .img-infografica-b__modal
+    background-color: #dee5e8
+  .img-infografica__item__numero
+    color: #004B89 !important
+
+.bg-gradient
+  background: #C4E4FF
+  background-color: linear-gradient(180deg, #C4E4FF 0%, #C4E4FF 100%)  
+
+.border-dash-rows
+  border: 3px dashed #b9ddfc
+  position: relative
+  &:before
+    content: url('../assets/curso/temas/tema1/adorno1.svg')
+    position: absolute
+    top: 0
+    left: 0
+    width: 57px
+    height: 57px
+    z-index: 1
+    transform: translate(-50%, -50%)
+  &:after
+    content: url('../assets/curso/temas/tema1/adorno1.svg')
+    position: absolute
+    bottom: 0
+    right: 0
+    width: 57px
+    height: 57px
+    z-index: 1
+    transform: rotate(180deg) translate(-50%, -50%)
+
+.bloque-texto-g__texto
+  p span
+    color: #FFB30B;
+    font-weight: bold;
+
+.cajon-b
+  &:before
+    top: 40%;
+    left: 50%;
+    right: 0%;
+    bottom: 0%;
+
+.cajon-b:before
+  opacity: 0.29;
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #00DEFC;
+
+.img-infografica.color-acento-botones .img-infografica__item__dot:before
+  background-color: #FCCB60;
+
+.img-infografica.color-acento-botones .img-infografica__item__dot:before, .img-infografica.color-acento-botones .img-infografica__item__dot:after, .img-infografica.color-acento-botones .img-infografica-b__item__dot:before, .img-infografica.color-acento-botones .img-infografica-b__item__dot:after, .img-infografica-b.color-acento-botones .img-infografica__item__dot:before, .img-infografica-b.color-acento-botones .img-infografica__item__dot:after, .img-infografica-b.color-acento-botones .img-infografica-b__item__dot:before, .img-infografica-b.color-acento-botones .img-infografica-b__item__dot:after
+  background-color: #FCCB60;
+
+.cajon.color-primario
+    background-color: #B9DDFC;
+
+.lista-ol--cuadro__vineta
+    background-color: #FFB30B;
+
+.banner-interno__fondo
+  background-image: url('../assets/curso/bg-interno.png') !important
+
+///// Custom acordeon A tipo A -------------------------------------- 
+
+
+.acordion__accion__btn--a
+  background-color: #FECA2E !important
+
+.acordion__activo
+  background-color: #FFF7E0 !important
+
+///custom tarjetas avatar tema 3
+.tarjeta-avatar
+  width: 350px
+  height: 500px
+
+.tarjeta-avatar > img 
+    position: absolute
+    left: 50%
+    top: 15px
+    transform: translateX(-50%)
+    display: block
+    width: 130px
+    margin: 0 auto
+
+.tarjeta-avatar .tarjeta 
+    display: inline-block
+    padding-top: 30px !important
+    height: 100%
+
+.tarjeta--amarilla-1
+  background-color: #FFE595
+
+.tarjeta--azul
+  background-color: #FFFFFF
+//----------------------------------------
+.cajon--amarillo-1
+  background-color: #feca2ece

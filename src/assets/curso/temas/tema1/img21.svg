@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="466" viewBox="0 0 400 466">
+  <g id="Grupo_172845" data-name="Grupo 172845" transform="translate(8064 4578)">
+    <g id="Grupo_172843" data-name="Grupo 172843" transform="translate(-8349 -11751)">
+      <path id="Trazado_1383" data-name="Trazado 1383" d="M2869.75,4847.5c-97.489-9.616-131.359,75.276-106.4,135.454,25.164,60.667-16.551,74.731-4.631,160.04,12.067,86.378,163.038,42.521,163.038,42.521s131.279-13.743,191.786-30.027c60.185-16.2,38.41-171.216,36.614-208.929-1.781-37.493,1.661-70.075-64.421-102.7C3019.781,4811.3,2966.917,4857.082,2869.75,4847.5Z" transform="translate(-2470.455 2391.01)" fill="#bddcf6"/>
+      <g id="Grupo_172730" data-name="Grupo 172730" transform="translate(-51.934 -97)">
+        <path id="Trazado_115567" data-name="Trazado 115567" d="M887.409,118.476h326.855v42.178H887.409Z" transform="translate(-519.475 7201.524)" fill="#4cb7cd"/>
+        <rect id="Rectángulo_42487" data-name="Rectángulo 42487" width="326.855" height="31.355" transform="translate(367.934 7424.887)" fill="#f4f3f3"/>
+        <rect id="Rectángulo_42488" data-name="Rectángulo 42488" width="326.855" height="31.355" transform="translate(367.934 7362.178)" fill="#f4f3f3"/>
+        <rect id="Rectángulo_42489" data-name="Rectángulo 42489" width="326.855" height="31.355" transform="translate(367.934 7393.532)" fill="#fff"/>
+        <rect id="Rectángulo_42489-2" data-name="Rectángulo 42489" width="326.855" height="31.355" transform="translate(367.934 7456.242)" fill="#fff"/>
+        <text id="byte" transform="translate(377.802 7382.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">byte</tspan></text>
+        <text id="Megabyte" transform="translate(377.802 7444.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Megabyte</tspan></text>
+        <text id="b" transform="translate(476.566 7385.654)" fill="#0c1d30" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">b</tspan></text>
+        <text id="GB" transform="translate(476.566 7477.569)" fill="#0c1d30" font-size="19" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">GB</tspan></text>
+        <text id="KB" transform="translate(476.566 7414.861)" fill="#0c1d30" font-size="19" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">KB</tspan></text>
+        <text id="MB" transform="translate(476.566 7447.363)" fill="#0c1d30" font-size="19" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">MB</tspan></text>
+        <text id="_1024_MB" data-name="1024 MB" transform="translate(583.822 7475.57)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 MB</tspan></text>
+        <text id="_1024_bytes" data-name="1024 bytes" transform="translate(583.822 7412.861)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 bytes</tspan></text>
+        <text id="_1024_KB" data-name="1024 KB" transform="translate(583.822 7444.216)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 KB</tspan></text>
+        <text id="Medida" transform="translate(376.848 7347.036)" fill="#fff" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Medida</tspan></text>
+        <text id="Simbología" transform="translate(476.566 7345.938)" fill="#fff" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Simbología</tspan></text>
+        <text id="_8_bits" data-name="8 bits" transform="translate(583.822 7382.654)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">8 bits</tspan></text>
+        <text id="Equivalencia" transform="translate(583.822 7345.938)" fill="#fff" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Equivalencia</tspan></text>
+        <text id="Kylobyte" transform="translate(377.802 7413.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Kylobyte</tspan></text>
+        <rect id="Rectángulo_42487-2" data-name="Rectángulo 42487" width="326.855" height="31.355" transform="translate(367.934 7550.305)" fill="#f4f3f3"/>
+        <rect id="Rectángulo_42488-2" data-name="Rectángulo 42488" width="326.855" height="31.355" transform="translate(367.934 7487.596)" fill="#f4f3f3"/>
+        <rect id="Rectángulo_42489-3" data-name="Rectángulo 42489" width="326.855" height="31.355" transform="translate(367.934 7518.951)" fill="#fff"/>
+        <rect id="Rectángulo_42489-4" data-name="Rectángulo 42489" width="326.855" height="31.355" transform="translate(367.934 7581.66)" fill="#fff"/>
+        <text id="TB" transform="translate(476.566 7509.924)" fill="#0c1d30" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">TB</tspan></text>
+        <text id="ZB" transform="translate(476.566 7603.987)" fill="#0c1d30" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">ZB</tspan></text>
+        <text id="PB" transform="translate(476.566 7542.427)" fill="#0c1d30" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">PB</tspan></text>
+        <text id="EB" transform="translate(476.566 7571.633)" fill="#0c1d30" font-size="19" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">EB</tspan></text>
+        <text id="_1024_EB" data-name="1024 EB" transform="translate(583.822 7600.988)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 EB</tspan></text>
+        <text id="_1024_TB" data-name="1024 TB" transform="translate(583.822 7538.279)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 TB</tspan></text>
+        <text id="_1024_PB" data-name="1024 PB" transform="translate(583.822 7569.634)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 PB</tspan></text>
+        <text id="_1024_GB" data-name="1024 GB" transform="translate(583.822 7506.924)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 GB</tspan></text>
+        <rect id="Rectángulo_42488-3" data-name="Rectángulo 42488" width="326.855" height="31.355" transform="translate(367.934 7613.015)" fill="#f4f3f3"/>
+        <rect id="Rectángulo_42489-5" data-name="Rectángulo 42489" width="326.855" height="31.355" transform="translate(367.934 7644.369)" fill="#fff"/>
+        <text id="YB" transform="translate(476.566 7635.343)" fill="#0c1d30" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">YB</tspan></text>
+        <text id="BB" transform="translate(476.566 7665.697)" fill="#0c1d30" font-size="19" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">BB</tspan></text>
+        <text id="_1024_YB" data-name="1024 YB" transform="translate(583.822 7663.697)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 YB</tspan></text>
+        <text id="_1024_ZB" data-name="1024 ZB" transform="translate(583.822 7632.343)" fill="#0c1d30" font-size="17" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="0" y="0">1024 ZB</tspan></text>
+        <line id="Línea_175" data-name="Línea 175" y2="355.723" transform="translate(471.109 7320)" fill="none" stroke="#4cb7cd" stroke-linecap="round" stroke-width="2"/>
+        <line id="Línea_175-2" data-name="Línea 175" y2="355.723" transform="translate(572.752 7320)" fill="none" stroke="#4cb7cd" stroke-linecap="round" stroke-width="2"/>
+        <text id="Terabyte" transform="translate(377.802 7508.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Terabyte</tspan></text>
+        <text id="Gigabyte" transform="translate(377.802 7477.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Gigabyte</tspan></text>
+        <text id="Petabyte" transform="translate(377.802 7539.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Petabyte</tspan></text>
+        <text id="Zetabyte" transform="translate(377.802 7601.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Zetabyte</tspan></text>
+        <text id="Yottabyte" transform="translate(377.802 7633.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Yottabyte</tspan></text>
+        <text id="Exabyte" transform="translate(377.802 7570.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Exabyte</tspan></text>
+        <text id="Brontobyte" transform="translate(377.802 7663.314)" fill="#0c1d30" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Brontobyte</tspan></text>
+      </g>
+    </g>
+    <rect id="Rectángulo_45064" data-name="Rectángulo 45064" width="400" height="51" transform="translate(-8064 -4163)" fill="#e8e8e8"/>
+    <text id="Nota:_adaptada_de_Medidas_de_capacidad_de_almacenamiento_en_informática._Keumpcoe_9_de_marzo_de_2016_._" data-name="Nota: adaptada de Medidas de capacidad de almacenamiento en informática. Keumpcoe (9 de marzo de 2016). " transform="translate(-8050 -4154)" fill="#12263f" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="14">Nota: </tspan><tspan y="14" font-family="Roboto-Italic, Roboto" font-style="italic">adaptada de Medidas de capacidad de almacenamiento en </tspan><tspan x="0" y="32" font-family="Roboto-Italic, Roboto" font-style="italic">informática</tspan><tspan y="32">. Keumpcoe (9 de marzo de 2016). </tspan></text>
+    <rect id="Rectángulo_45065" data-name="Rectángulo 45065" width="4" height="40" transform="translate(-8064 -4578)" fill="#4dd0e1"/>
+    <g id="Grupo_172844" data-name="Grupo 172844" transform="translate(-8894 -6002)">
+      <text id="Tabla_1_Unidades_de_medidas_de_almacenamiento" data-name="Tabla 1
+Unidades de medidas de almacenamiento" transform="translate(850 1440)" fill="#12263f" font-size="13" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Tabla 1</tspan><tspan y="0" font-family="Roboto-Italic, Roboto" font-weight="400" font-style="italic"></tspan><tspan font-family="Roboto-Italic, Roboto" font-weight="400" font-style="italic"><tspan x="0" y="18">Unidades de medidas de almacenamiento</tspan></tspan></text>
+      <rect id="Rectángulo_44015" data-name="Rectángulo 44015" width="4" height="40" transform="translate(830 1424)" fill="#4dd0e1"/>
+    </g>
+  </g>
+</svg>
