@@ -42,7 +42,7 @@
 @keyframes scale
   0%
     transform: scale(1)
-
+    
   100%
     transform: scale(1.2)
 
@@ -50,9 +50,10 @@
   overflow: hidden
   height: 450px
 
+@media (min-width: 1440px)
+  .banner-principal__img
+    width: 45%
 
-.banner-principal__img
-  width: 45%
 /// Tarjetas --------------------------------------
 .crd
   &.brd--rad
@@ -327,7 +328,7 @@
 
 
 .acordion__accion__btn--a
-  background-color: #FECA2E !important
+  background-color: $color-acento-contenido !important
 
 .acordion__activo
   background-color: #FFF7E0 !important

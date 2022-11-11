@@ -269,12 +269,12 @@
         p Son datos con formato o esquema fijo como los que encontramos en bases de datos relacionales, hojas de cálculo (como Excel) y archivos planos (separados por comas). El tener un formato y esquema fijo facilita la manipulación de los datos.
 
       .tarjeta.color-acento-botones.p-3(x="50%" y="73%" numero="-")(style="background-color:#FFF7DE")
-        .h5.mb-2 Datos no estructurados
-        p Estos son datos sin un tipo predefinido que pueden estar almacenados como documentos u objetos sin una estructura uniforme. Se calcula que alrededor del 80% de la información de las organizaciones es de este tipo. Algunos ejemplos de datos no estructurados son: audios, videos, fotografías, correos electrónicos, mensajes y comentarios de redes sociales.
-
-      .tarjeta.color-acento-botones.p-3(x="86%" y="73%" numero="-")(style="background-color:#FFF7DE")
         .h5.mb-2 Datos semiestructurados
         p Este tipo de datos tiene un flujo lógico y un formato definido pero que no es de fácil comprensión para el usuario de forma directa. Estos datos usan etiquetas y marcadores para separar los elementos dados. Algunos ejemplos de datos semiestructurados son XML y HTML.
+
+      .tarjeta.color-acento-botones.p-3(x="86%" y="73%" numero="-")(style="background-color:#FFF7DE")
+        .h5.mb-2 Datos no estructurados
+        p Estos son datos sin un tipo predefinido que pueden estar almacenados como documentos u objetos sin una estructura uniforme. Se calcula que alrededor del 80% de la información de las organizaciones es de este tipo. Algunos ejemplos de datos no estructurados son: audios, videos, fotografías, correos electrónicos, mensajes y comentarios de redes sociales.        
     
     .row.justify-content-center.mb-5
       .tarjeta-avatar
