@@ -54,6 +54,18 @@
   .banner-principal__img
     width: 45%
 
+  .bloque-derecha
+    .bloque-texto-g__img
+      left: auto
+      right: 0
+      width: 39%
+    .bloque-texto-g
+      justify-content: start
+    .bloque-texto-g__texto--border
+      position: relative
+      width: 67%
+    .bloque-texto-g__texto
+      width: 100%
 /// Tarjetas --------------------------------------
 .crd
   &.brd--rad
@@ -132,8 +144,17 @@
   @media (max-width: 1000px)
     display: none
 
-.bloque-texto-e i:first-of-type
-    margin-right: 0px;
+.bloque-texto-a.color-primario
+  background-color: rgba(232,232,232,.95)
+  &.invert::before
+    background-color: #BDDCF6
+    left: 0%
+    right: 50%
+
+.bloque-texto-a__img
+  left: auto
+  right: 0
+  width: 100%
 
 .bloque-texto-d i
     font-size: 1em;
@@ -236,6 +257,20 @@
     width: 67%
   .bloque-texto-g__texto
     width: 100%
+  
+  @media (max-width: 1024px)
+    .bloque-texto-g__img
+      width: 55%
+    .bloque-texto-g__texto--border
+      width: 100%
+
+  @media (max-width: 768px)
+    .bloque-texto-g__img
+      overflow: hidden
+      width: 100%
+    .bloque-texto-g__texto--border
+      width: 100%
+    
 
 .bloque-izq
   .bloque-texto-g__img
@@ -353,10 +388,24 @@
     height: 100%
 
 .tarjeta--amarilla-1
-  background-color: #FFE595
+  background-color:#ffe59599
 
 .tarjeta--azul
-  background-color: #FFFFFF
+  background-color: #1389f813 !important
 //----------------------------------------
 .cajon--amarillo-1
   background-color: #feca2ece
+
+.tabs-a__tab
+    background-color: #E8E8E8;
+
+.acordion
+  .ca-ab
+    background-color: $color-primario
+    &.acordion__activo
+      background-color: #FFF7DE
+  &__accion__btn--a
+    background-color: $color-acento-botones
+
+.tarjeta--gris
+    background-color: #feca2e0d;

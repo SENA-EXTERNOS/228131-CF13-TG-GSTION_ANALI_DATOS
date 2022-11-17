@@ -125,7 +125,7 @@ export default {
       referencia:
         'MINTIC. (s.f.). Guía para el uso y aprovechamiento de Datos Abiertos de Colombia.',
       tipo: 'PDF',
-      descarga:
+      link:
         'https://herramientas.datos.gov.co/sites/default/files/Guia%20de%20Datos%20Abiertos%20de%20Colombia.pdf',
     },
     {
@@ -133,22 +133,22 @@ export default {
       referencia:
         'Colombia Ministerio de Salud. (2019). Lineamientos para la anonimización de datos del Sistema Nacional de Estudios y encuestas poblacionales para la salud.',
       tipo: 'PDF',
-      descarga:
+      link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/ED/GCFI/lineamientos-anonimizacion-sistema-encuestas.pdf',
     },
     {
-      tema: '<em>scikit-learn</em>',
+      tema: '<em>Scikit-learn</em>',
       referencia:
         '<em>Scikit-Learn.</em> (2022). <em>scikit-learn</em>: machine learning in Python.',
       tipo: 'Sitio web',
-      descarga: 'https://scikit-learn.org/stable/',
+      link: 'https://scikit-learn.org/stable/',
     },
     {
       tema: 'TensorFlow',
       referencia:
         'TensorFlow. (2022). Crear modelos de aprendizaje automático de nivel de producción con TensorFlow',
       tipo: 'Sitio web',
-      descarga: 'https://www.tensorflow.org/?hl=es-419',
+      link: 'https://www.tensorflow.org/?hl=es-419',
     },
   ],
   glosario: [
@@ -165,12 +165,12 @@ export default {
     {
       termino: 'CRM',
       significado:
-        '<em>Customer Relationship Management</em> es un <em>software</em> que permite a las empresas rastrear cada interacción con los usuarios, leads y clientes.',
+        '<em>customer Relationship Management</em> es un <em>software</em> que permite a las empresas rastrear cada interacción con los usuarios, leads y clientes.',
     },
     {
       termino: 'ERP',
       significado:
-        '<em>Enterprise resource manager</em> o sistemas de planificación de recursos empresariales son los sistemas de información gerenciales que integran y manejan muchos de los negocios asociados con las operaciones de producción y de los aspectos de distribución de una compañía en la producción de bienes o servicios.',
+        '<em>enterprise resource manager</em> o sistemas de planificación de recursos empresariales son los sistemas de información gerenciales que integran y manejan muchos de los negocios asociados con las operaciones de producción y de los aspectos de distribución de una compañía en la producción de bienes o servicios.',
     },
     {
       termino: '<em>HADOOP</em>',
@@ -180,12 +180,12 @@ export default {
     {
       termino: 'HDFS',
       significado:
-        '<em>Hadoop Distributed File System</em> es el componente principal del ecosistema Hadoop. Esta pieza hace posible almacenar data sets masivos.',
+        '<em>hadoop Distributed File System</em> es el componente principal del ecosistema Hadoop. Esta pieza hace posible almacenar data sets masivos.',
     },
     {
       termino: 'IA',
       significado:
-        'Inteligencia artificial - Es la simulación de procesos de inteligencia humana por parte de máquinas.',
+        'inteligencia artificial - Es la simulación de procesos de inteligencia humana por parte de máquinas.',
     },
     {
       termino: '<em>Insight</em>',
@@ -195,12 +195,12 @@ export default {
     {
       termino: '<em>Open Data</em>',
       significado:
-        'Son datos que pueden ser reutilizados y redistribuidos libremente por las personas sin mayores restricciones (en algunos casos el único requerimiento para su uso es la atribución al autor y que al compartirse conserve los mismos permisos).',
+        'son datos que pueden ser reutilizados y redistribuidos libremente por las personas sin mayores restricciones (en algunos casos el único requerimiento para su uso es la atribución al autor y que al compartirse conserve los mismos permisos).',
     },
     {
       termino: 'XML',
       significado:
-        'Siglas en inglés de <em>aeXtensible Markup Language<em>, traducido como "Lenguaje de Marcado Extensible" o "Lenguaje de Marcas Extensible", es un metalenguaje que permite definir lenguajes de marcas desarrollado por el <em>World Wide Web</em>.',
+        'siglas en inglés de <em>aeXtensible Markup Language<em>, traducido como "Lenguaje de Marcado Extensible" o "Lenguaje de Marcas Extensible", es un metalenguaje que permite definir lenguajes de marcas desarrollado por el <em>World Wide Web</em>.',
     },
   ],
   referencias: [

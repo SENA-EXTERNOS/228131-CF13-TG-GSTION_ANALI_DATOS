@@ -10,17 +10,18 @@
       .col-xl-4
         figure
           img(src='@/assets/curso/temas/tema1/img1.svg', alt='')
-      .col-xl-8
+      .col-xl-8        
         p(data-aos="fade-down") La ciencia de datos es uno de los campos de estudio más atractivos y mejor pagados en la actualidad. Gracias a los avances de la tecnología se puede crear, almacenar y procesar grandes cantidades de información que aumentan año tras año. Es en la explotación de esta información que los científicos de datos empleando diversas competencias, han encontrado un insumo valioso para las organizaciones, pues, en la información se revelan las tendencias, patrones y comportamientos de estos negocios y es gracias a los datos y la información que se genera conocimiento práctico y útil para crear e innovar.
         p(data-aos="fade-down") La empresa Amazon (2022), líder en procesos de computación en la nube y comercio electrónico define ciencia de datos cómo:
-        .bloque-texto-b.color-primario5.p-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p.mb-0 La ciencia de datos es el estudio de datos con el fin de extraer información significativa para empresas. Es un enfoque multidisciplinario que combina principios y prácticas del campo de las matemáticas, la estadística, la inteligencia artificial y la ingeniería de computación para analizar grandes cantidades de datos. Este análisis permite a los científicos de datos plantear y responder a preguntas como “qué pasó”, “porqué pasó”, “qué pasará” y “qué se puede hacer con los resultados”.
-            br
-            .row.justify-content-end
-              p.text-bold.texto-alineado2 (Amazon, 2022)
-            i.fas.fa-quote-right        
+        .cajon-b.color-acento-contenido.p-3.mb-5.abajo-derecha
+          .bloque-texto-b.color-primario5.p-4
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p.mb-0 La ciencia de datos es el estudio de datos con el fin de extraer información significativa para empresas. Es un enfoque multidisciplinario que combina principios y prácticas del campo de las matemáticas, la estadística, la inteligencia artificial y la ingeniería de computación para analizar grandes cantidades de datos. Este análisis permite a los científicos de datos plantear y responder a preguntas como “qué pasó”, “porqué pasó”, “qué pasará” y “qué se puede hacer con los resultados”.              
+              .row.mb-4
+              .col-11.d-inline-flex.justify-content-end.align-items-center
+                p.mb-0.text-bold (Amazon, 2022)
+                i.fas.fa-quote-right        
 
     .row.justify-content-center.mb-4
       .col-xl-12
@@ -31,31 +32,28 @@
         .bloque-derecha.mb-5(data-aos="zoom-in")
           .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5( style="background-color: #BDDCF6")
             .bloque-texto-g__img.d-flex.align-items-center
-              img(src='@/assets/curso/temas/tema1/img2.png', alt=''  style='width: 100%')
+              figure
+                img(src='@/assets/curso/temas/tema1/img2.png', alt='' )
             .bloque-texto-g__texto--border.p-2.d-inline-block
               .bloque-texto-g__texto.p-4
                 p.mb-0 Para la gestión y aprovechamiento de la información, la ciencia de datos combina las habilidades de los miembros del equipo de trabajo que, por lo general, tienen una gran diversidad de perfiles entre ellos: matemáticas y estadística, ciencias de la computación, inteligencia artificial y conocimiento del negocio.
     
-    
     TabsA.color-acento-botones
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Matemáticas y estadística")( style="background-color: #D2E1F1;border:solid 4px #D2E1F1")
-        h4 Matemáticas y estadística
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Matemáticas y estadística")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
             p En este campo son de especial interés áreas como el cálculo, el álgebra lineal, la estadística y la probabilidad. Se usan por ejemplo el álgebra lineal para representar una red neuronal (utilizada en machine #[i learning] o aprendizaje de máquina) y el cálculo para optimizar dicha red. La estadística es requerida para el análisis y visualización de los conjuntos de datos empleados y sus #[i insights], y por medio de la probabilidad, el científico de datos podrá cuantificar la incertidumbre, es decir, la posibilidad de que cierto evento ocurra con los datos analizados. 
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img3_1.svg', alt='')
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Ciencias de la computación")( style="background-color: #D2E1F1;border:solid 4px #D2E1F1")
-        h4 Ciencias de la computación
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Ciencias de la computación")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
             p El conocimiento en este campo permite programar y administrar las tecnologías necesarias para el almacenamiento, procesamiento, uso y presentación de los datos. Lenguajes de programación (#[i Python], R), motores de bases de datos, requerimientos de #[i hardware] y #[i software], son algunas de las áreas relacionadas que se usan día a día en proyectos de ciencias de datos y esto, sin mencionar las nuevas tecnologías utilizadas cuando se debe trabajar con grandes cantidades de información (#[i Big Data]).
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img3_2.svg', alt='')
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Inteligencia artificial")( style="background-color: #D2E1F1;border:solid 4px #D2E1F1")
-        h4 Inteligencia artificial
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Inteligencia artificial")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
             p Con su uso y el #[i machine learning] (aprendizaje de máquina) es posible procesar cantidades masivas de datos que serían imposibles de manejar solo por humanos. Este tipo de inteligencia permite además perfeccionar los modelos mediante el uso de algoritmos y análisis predictivo. Algunas de las herramientas utilizadas en este campo son: #[i scikit-learn] y Tensor #[i Flow] que son bibliotecas de #[i Python] para el aprendizaje automático.
@@ -93,12 +91,12 @@
         p(data-aos="fade-down") En la actualidad son muchos los sectores que ya aprovechan la ciencia de datos para fortalecer sus conocimientos del negocio y tomar mejores decisiones. Los siguientes son algunos ejemplos de dichos sectores y cómo utilizan las herramientas y la información para su beneficio:
     
     .bg--img_03
-      .row.justify-content-center.mb-4
+      .row.justify-content-center
         .col-lg-4
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema1/img5.png", alt="alt").img400.m-auto
         .col-lg-8
-          AcordionA.mb-2(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          AcordionA.mb-2(tipo="a" clase-tarjeta="tarjeta ca-ab")
             .row.justify-content-center.mb-4(titulo="Sector bancario")
               .col-10
                 p.mb-0 Es uno de los que más genera información en sus transacciones diarias (movimientos bancarios, creación de cuentas, transferencias electrónicas) y estos recursos se pueden utilizar para detectar patrones de usos fraudulentos en cuentas bancarias o tarjetas de crédito, predecir comportamientos de clientes con relación a pagos de préstamos, identificar relaciones entre indicadores financieros, fidelización de clientes, entre otros.
@@ -113,7 +111,8 @@
                 p.mb-0 La ciencia de datos permite el mantenimiento predictivo de equipos y maquinarias al analizar y procesar la información de funcionamiento de los mismos, prediciendo fallos con antelación y disminuyendo así la inversión en estas actividades.
             .row.justify-content-center.mb-4(titulo="Automatización")
               .col-10
-                p.mb-0 Las técnicas de ciencia de datos como el #[i Machine Learning] permiten la automatización de procesos y actividades como la conducción de un vehículo o la creación de imágenes a partir de consultas en lenguaje natural.
+                p.mb-0 Las técnicas de ciencia de datos como el #[i Machine Learning] permiten la automatización de procesos y actividades como la conducción de un vehículo o la creación de imágenes a partir de consultas en lenguaje natural.    
+
     Separador
     .row
       .col-xl-12       
@@ -128,7 +127,7 @@
           img(src='@/assets/curso/temas/tema1/img6.svg', alt='')
     
     .tarjeta.tarjeta--gris.p-4
-      LineaTiempoC.color-acento-contenido(text-small)
+      LineaTiempoC.color-acento-botones(text-small)
         .row(titulo="Conocimiento del negocio")
           .col-md-6.mb-4.mb-md-0
             p Se centra en conocer los objetivos y requerimientos del proyecto. El éxito o el fracaso del proyecto de ciencia de datos dependerá en gran medida del entendimiento de las necesidades del cliente o de la organización, pues unos requerimientos deficientes pueden llevar a conclusiones erróneas o de poca utilidad. Algunas de las tareas a desarrollar en esta fase son: determinar los objetivos del negocio y definir los criterios de éxito del proyecto, evaluar los recursos necesarios y disponibles para su ejecución (esto incluye conocer el origen y la disponibilidad de los recursos, evaluar los riesgos y realizar un análisis de costo - beneficio), seleccionar las tecnologías y las herramientas necesarias para la ejecución del proyecto y definir el plan de trabajo para cada una de las fases.
@@ -262,20 +261,10 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema1/img17.svg', alt='')
+          br
           figcaption Nota:  reproducida de Big Data 101 Module 2 Video 1. Big Data University (2016).  [video] Youtube.
 
-      .tarjeta.color-acento-botones.p-3(x="13%" y="73%" numero="-")(style="background-color:#FFF7DE")
-        .h5.mb-2 Datos estructurados
-        p Son datos con formato o esquema fijo como los que encontramos en bases de datos relacionales, hojas de cálculo (como Excel) y archivos planos (separados por comas). El tener un formato y esquema fijo facilita la manipulación de los datos.
-
-      .tarjeta.color-acento-botones.p-3(x="50%" y="73%" numero="-")(style="background-color:#FFF7DE")
-        .h5.mb-2 Datos semiestructurados
-        p Este tipo de datos tiene un flujo lógico y un formato definido pero que no es de fácil comprensión para el usuario de forma directa. Estos datos usan etiquetas y marcadores para separar los elementos dados. Algunos ejemplos de datos semiestructurados son XML y HTML.
-
-      .tarjeta.color-acento-botones.p-3(x="86%" y="73%" numero="-")(style="background-color:#FFF7DE")
-        .h5.mb-2 Datos no estructurados
-        p Estos son datos sin un tipo predefinido que pueden estar almacenados como documentos u objetos sin una estructura uniforme. Se calcula que alrededor del 80% de la información de las organizaciones es de este tipo. Algunos ejemplos de datos no estructurados son: audios, videos, fotografías, correos electrónicos, mensajes y comentarios de redes sociales.        
-    
+      
     .row.justify-content-center.mb-5
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema1/img18.svg' alt='AvatarTop')
@@ -299,7 +288,7 @@
       .col-lg-12
         p(data-aos="fade-down") En el 2001 el analista Doug Laney presentó el concepto de las 3V como principios básicos para entender el Big Data. Las 3Vs que describen son:
     
-    TabsC.color-primario.mb-5
+    TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Volumen")
         .row        
           .col-md-4
@@ -402,7 +391,7 @@
     .bg--img_03
       .row.justify-content-center.mb-4        
         .col-lg-8
-          AcordionA.mb-2(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          AcordionA.mb-2(tipo="a" clase-tarjeta="tarjeta ca-ab")
             .row.justify-content-center.mb-4(titulo="Fuentes de información físicas")
               .col-10
                 p.mb-0 Son aquellas en las que el registro de la información se hace en medios físicos como por ejemplo el papel. Estas fuentes aún son utilizadas en algunos sectores con las desventajas que pueden acarrear la gestión de este material pues además de ocupar espacio y ser más susceptibles a daños, también su uso en proyectos de ciencias de datos requiere un proceso adicional de digitalización.
@@ -446,7 +435,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p(data-aos="fade-down").mb-4 El “#[i open data]” o los datos abiertos, son datos que pueden ser reutilizados y redistribuidos libremente por las personas sin mayores restricciones (en algunos casos el único requerimiento para su uso es la atribución al autor y que al compartirse conserve los mismos permisos). 
-        p(data-aos="fade-down").mb-4 Tal y cómo se expresa en el portal de open data del Ministerio de Tecnologías de la información y las comunicaciones de Colombia (MinTIC, s.f.)
+        p(data-aos="fade-down").mb-4 Tal y como se expresa en el portal de open data del Ministerio de Tecnologías de la información y las comunicaciones de Colombia (MinTIC, s.f.)
         br
         .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
           p(data-aos="fade-down").mb-4 Datos abiertos corresponde a una filosofía y práctica que persigue que determinados datos de los Gobiernos estén disponibles de forma libre a todo el mundo, sin restricciones de #[i copyright], patentes u otros mecanismos de control, permitiendo el impulso del crecimiento económico, salvaguardar los derechos de ciudadanos y empresas, así como, delimitar las obligaciones de las administraciones. 
@@ -463,7 +452,6 @@
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Reutilización y distribución")( style="background-color: #D2E1F1;border:solid 4px #D2E1F1")
-        h4 Reutilización y distribución
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
             p Los datos deben ser provistos bajo licencias que permitan reutilizarlos y redistribuirlos libremente, así como combinarlos con otros conjuntos de datos.
@@ -471,7 +459,6 @@
             figure
               img(src='@/assets/curso/temas/tema1/img33.svg', alt='')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Disponibilidad y acceso")( style="background-color: #D2E1F1;border:solid 4px #D2E1F1")
-        h4 Disponibilidad y acceso
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
             p Los datos deben estar disponibles y accesibles sin costo (o en unos pocos casos con un bajo costo) preferiblemente desde Internet. Los formatos en los que se comparte la información deben facilitar su almacenamiento y manipulación. Los formatos más utilizados para este fin son: CSV (Valores separados por coma), XML (Lenguaje etiquetado extensible), JSON (notación de objetos #[i JavaScript]) y ODF (Formato de documento abierto para aplicaciones ofimáticas), entre otros.
@@ -479,7 +466,6 @@
             figure
               img(src='@/assets/curso/temas/tema1/img33.svg', alt='')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Participación universal")( style="background-color: #D2E1F1;border:solid 4px #D2E1F1")
-        h4 Participación universal
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
             p Los datos deben estar disponibles para cualquier tipo de uso sin discriminación en términos de personas o fines. Por ejemplo, no se puede limitar el uso de los datos solo para temas académicos o educativos o restringir su acceso por temas geográficos o étnicos.
@@ -575,7 +561,7 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema1/img37.svg", alt="alt").img400.m-auto
         .col-lg-8
-          AcordionA.mb-2(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          AcordionA.mb-2(tipo="a" clase-tarjeta="tarjeta ca-ab")
             .row.justify-content-center.mb-4(titulo="Agrupamiento")
               .col-10
                 p.mb-0 También es conocida como “#[i clustering]” o aglomeración, consiste en formar grupos a partir de conjuntos de datos. Aquí se analizan los datos para agruparlos y generar una etiqueta; estos se agrupan de tal forma que los datos que pertenecen a un mismo grupo tienen características similares. Es una de las técnicas descriptivas más utilizadas. Al inicio del proceso de #[i clustering] no se conoce cuántos grupos de clasificación existirán ni cuántos elementos tendrá cada grupo.

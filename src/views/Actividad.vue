@@ -10,7 +10,7 @@
             img(src="@/assets/curso/temas/ad.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Falso / Verdadero
+          h2 Introducción a la ciencia de datos
         p.mb-4 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo. 
         p.mb-4 Lea la afirmación de cada ítem y luego señale verdadero o falso según corresponda.
 
