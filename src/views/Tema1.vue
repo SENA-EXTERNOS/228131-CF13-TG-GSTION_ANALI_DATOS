@@ -13,8 +13,8 @@
       .col-xl-8        
         p(data-aos="fade-down") La ciencia de datos es uno de los campos de estudio más atractivos y mejor pagados en la actualidad. Gracias a los avances de la tecnología se puede crear, almacenar y procesar grandes cantidades de información que aumentan año tras año. Es en la explotación de esta información que los científicos de datos empleando diversas competencias, han encontrado un insumo valioso para las organizaciones, pues, en la información se revelan las tendencias, patrones y comportamientos de estos negocios y es gracias a los datos y la información que se genera conocimiento práctico y útil para crear e innovar.
         p(data-aos="fade-down") La empresa Amazon (2022), líder en procesos de computación en la nube y comercio electrónico define ciencia de datos cómo:
-        .cajon-b.color-acento-contenido.p-3.mb-5.abajo-derecha
-          .bloque-texto-b.color-primario5.p-4
+        .cajon-b.color-primario.p-3.mb-5.abajo-derecha
+          .bloque-texto-b.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               p.mb-0 La ciencia de datos es el estudio de datos con el fin de extraer información significativa para empresas. Es un enfoque multidisciplinario que combina principios y prácticas del campo de las matemáticas, la estadística, la inteligencia artificial y la ingeniería de computación para analizar grandes cantidades de datos. Este análisis permite a los científicos de datos plantear y responder a preguntas como “qué pasó”, “porqué pasó”, “qué pasará” y “qué se puede hacer con los resultados”.              
@@ -478,7 +478,7 @@
         figure(data-aos="zoom-in")
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img34.svg', alt='')
       .col-xl-8
-        .cajon-b.color-acento-contenido.p-3.mb-5.abajo-derecha
+        .cajon-b.color-primario.p-3.mb-5.abajo-derecha
           p(data-aos="fade-down") El cumplimiento de estas características ayuda a mejorar la interoperabilidad de la información, es decir, permite a los interesados trabajar y combinar diferentes conjuntos de datos abiertos, así como los datos propios para desarrollar sistemas más complejos.
           p(data-aos="fade-down") Existen numerosas iniciativas de datos abiertos siendo los Estados Unidos y Gran Bretaña pioneros y ejemplos a nivel mundial. Las siguientes son algunas de estas iniciativas presentadas como material adicional que podrá ser utilizado como fuente de información para ejercicios de ciencia de datos:
 
@@ -547,7 +547,7 @@
         figure(data-aos="zoom-in")
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img36.svg', alt='')
       .col-xl-8
-        .cajon-b.color-acento-contenido.p-3.mb-5.abajo-derecha
+        .cajon-b.color-primario.p-3.mb-5.abajo-derecha
           p(data-aos="fade-down") En los proyectos de ciencias de datos se utilizan principalmente dos modelos de trabajo según la información disponible y el requerimiento o necesidad de la organización. Estos dos modelos son: modelos descriptivos y modelos predictivos; cada uno de estos modelos cuenta con tareas y técnicas propias que permitirán el análisis y la clasificación de la información.
           p(data-aos="fade-down") Los modelos descriptivos buscan hallar patrones o resumir datos (no buscan predecir nuevos datos a partir de la información disponible). Las técnicas aplicadas a estos modelos son el agrupamiento, reglas de asociación y análisis correlacional. Los modelos predictivos buscan aproximar posibles valores futuros o desconocidos utilizando los datos con los que se cuentan. En este modelo los datos van acompañados de una salida que puede ser una clase, una categoría o un valor numérico. Algunas técnicas aplicadas a estos modelos son la clasificación y la regresión.
 
