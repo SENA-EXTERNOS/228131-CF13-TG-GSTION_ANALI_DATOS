@@ -10,19 +10,20 @@
       .col-xl-4
         figure
           img(src='@/assets/curso/temas/tema1/img1.svg', alt='')
-      .col-xl-8        
+      .col-xl-8
         p(data-aos="fade-down") La ciencia de datos es uno de los campos de estudio más atractivos y mejor pagados en la actualidad. Gracias a los avances de la tecnología se puede crear, almacenar y procesar grandes cantidades de información que aumentan año tras año. Es en la explotación de esta información que los científicos de datos empleando diversas competencias, han encontrado un insumo valioso para las organizaciones, pues, en la información se revelan las tendencias, patrones y comportamientos de estos negocios y es gracias a los datos y la información que se genera conocimiento práctico y útil para crear e innovar.
-        p(data-aos="fade-down") La empresa Amazon (2022), líder en procesos de computación en la nube y comercio electrónico define ciencia de datos cómo:
+        p.mb-4(data-aos="fade-down") La empresa Amazon (2022), líder en procesos de computación en la nube y comercio electrónico define ciencia de datos cómo:
+        
         .cajon-b.color-primario.p-3.mb-5.abajo-derecha
           .bloque-texto-b.p-4
-            .bloque-texto-b__texto
+            .bloque-texto-f__comillas
               i.fas.fa-quote-left
-              p.mb-0 La ciencia de datos es el estudio de datos con el fin de extraer información significativa para empresas. Es un enfoque multidisciplinario que combina principios y prácticas del campo de las matemáticas, la estadística, la inteligencia artificial y la ingeniería de computación para analizar grandes cantidades de datos. Este análisis permite a los científicos de datos plantear y responder a preguntas como “qué pasó”, “porqué pasó”, “qué pasará” y “qué se puede hacer con los resultados”.              
+              i.fas.fa-quote-right
+              p.mb-0 La ciencia de datos es el estudio de datos con el fin de extraer información significativa para empresas. Es un enfoque multidisciplinario que combina principios y prácticas del campo de las matemáticas, la estadística, la inteligencia artificial y la ingeniería de computación para analizar grandes cantidades de datos. Este análisis permite a los científicos de datos plantear y responder a preguntas como “qué pasó”, “porqué pasó”, “qué pasará” y “qué se puede hacer con los resultados”.
               .row.mb-4
               .col-11.d-inline-flex.justify-content-end.align-items-center
                 p.mb-0.text-bold (Amazon, 2022)
-                i.fas.fa-quote-right        
-
+        
     .row.justify-content-center.mb-4
       .col-xl-12
         p(data-aos="fade-down") Los datos sin procesar no tienen ningún valor. Es cuando se utilizan para resolver los problemas de las organizaciones donde los datos se vuelven un insumo fundamental. Todos esos datos generados y almacenados diariamente pueden ayudar a transformar los negocios e incluso la sociedad si son aprovechados e interpretados correctamente, y este es el objetivo de la ciencia de datos.
@@ -295,7 +296,6 @@
             figure
               img(src='@/assets/curso/temas/tema1/img21.svg', alt='')              
           .col-md-8.mb-4.mb-md-0
-            h4 Volumen
             p Se refiere a la cantidad de datos, la cual viene creciendo año a año. Hace poco tiempo ya se hablaba de datos en cantidades de #[i petabytes] y ahora se empieza a hablar de #[i exabytes] y #[i zettabytes]. Son cantidades inimaginables hace algunas décadas.
       .py-3.py-md-4(titulo="Variedad")
         .row
@@ -303,7 +303,6 @@
             figure
               img(src='@/assets/curso/temas/tema1/img22.svg', alt='')              
           .col-md-8
-            h4 Variedad
             p Se refiere al número de tipos de datos. Las fuentes y los tipos de datos pueden ser diversas y al analizarlos en conjunto, requieren nuevas herramientas y procedimientos. El mundo real está lleno de datos en diferentes formatos y el reto del #[i Big Data] es permitir a la organización aprovecharlos y hacerlos significativos.
       .py-3.py-md-4(titulo="Velocidad")
         .row
@@ -311,7 +310,6 @@
             figure
               img(src='@/assets/curso/temas/tema1/img23.svg', alt='') 
           .col-md-8
-            h4 Velocidad
             p Se refiere a la velocidad de crecimiento y de procesamiento de datos. Existen procesos que requieren toma de decisiones en corto tiempo, como por ejemplo sistemas de detección de fraudes bancarios. El elemento de velocidad llega a ser en algunos casos más importante que el volumen de datos ya que le puede dar una ventaja competitiva a la organización.
 
     .row.justify-content-center.mb-5
