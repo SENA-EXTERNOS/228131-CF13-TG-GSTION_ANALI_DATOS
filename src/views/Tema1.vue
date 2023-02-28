@@ -43,14 +43,14 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Matemáticas y estadística")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
-            p En este campo, son de especial interés áreas como el cálculo, el álgebra lineal, la estadística y la probabilidad. Se usan, por ejemplo, el álgebra lineal para representar una red neuronal (utilizada en machine #[em learning] o aprendizaje de máquina), y el cálculo, para optimizar dicha red. La estadística es requerida para el análisis y visualización de los conjuntos de datos empleados y sus #[em insights], y por medio de la probabilidad, el científico de datos podrá cuantificar la incertidumbre, es decir, la posibilidad que cierto evento ocurra con los datos analizados. 
+            p En este campo, son de especial interés áreas como el cálculo, el álgebra lineal, la estadística y la probabilidad. Se usan, por ejemplo, el álgebra lineal para representar una red neuronal (utilizada en #[em machine learning] o aprendizaje de máquina), y el cálculo, para optimizar dicha red. La estadística es requerida para el análisis y visualización de los conjuntos de datos empleados y sus #[em insights], y por medio de la probabilidad, el científico de datos podrá cuantificar la incertidumbre, es decir, la posibilidad que cierto evento ocurra con los datos analizados. 
           .col-xl-3.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img3_1.svg', alt='')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ciencias de la computación")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
-            p El conocimiento en este campo, permite programar y administrar las tecnologías necesarias para el almacenamiento, procesamiento, uso y presentación de los datos. Lenguajes de programación (Python, R), motores de bases de datos, requerimientos de #[em hardware] y #[em software], son algunas de las áreas relacionadas que se usan día a día en proyectos de ciencia de datos y esto sin mencionar las nuevas tecnologías, utilizadas cuando se debe trabajar con grandes cantidades de información (#[em Big data]).
+            p El conocimiento en este campo, permite programar y administrar las tecnologías necesarias para el almacenamiento, procesamiento, uso y presentación de los datos. Lenguajes de programación (Python, R), motores de bases de datos, requerimientos de #[em hardware] y #[em software] son algunas de las áreas relacionadas que se usan día a día en proyectos de ciencia de datos y esto sin mencionar las nuevas tecnologías, utilizadas cuando se debe trabajar con grandes cantidades de información (#[em Big data]).
           .col-xl-3.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img3_2.svg', alt='')
@@ -114,8 +114,8 @@
         figure
           img(src='@/assets/curso/temas/tema1/img6.svg', alt='')
     
-    .tarjeta.tarjeta--gris.p-4
-      LineaTiempoC.color-acento-botones(text-small)
+    .tarjeta.tarjeta--gris.p-4.mb-5
+      LineaTiempoC.color-acento-botones
         .row(titulo="Conocimiento del negocio")
           .col-md-6.mb-4.mb-md-0
             p Se centra en conocer los objetivos y requerimientos del proyecto. El éxito o el fracaso del proyecto de ciencia de datos dependerá en gran medida del entendimiento de las necesidades del cliente o de la organización, pues unos requerimientos deficientes pueden llevar a conclusiones erróneas o de poca utilidad. Algunas de las tareas a desarrollar en esta fase son: determinar los objetivos del negocio y definir los criterios de éxito del proyecto, evaluar los recursos necesarios y disponibles para su ejecución (esto incluye conocer el origen y la disponibilidad de los recursos, evaluar los riesgos y realizar un análisis de costo - beneficio), seleccionar las tecnologías y las herramientas necesarias para la ejecución del proyecto y definir el plan de trabajo para cada una de las fases.
@@ -178,7 +178,6 @@
           .col-md-6.mb-4.mb-md-0
             p En esta fase se abordan dos tareas principales: la validación del sistema y la entrega del proyecto. En la validación del sistema se confirma que el proyecto y el modelo implementado cumplen con los requisitos iniciales del cliente y en la entrega del proyecto a la organización, para su ejecución en un entorno de producción. El cliente debe validar que los resultados finales satisfacen sus necesidades y responden a las preguntas realizadas en la fase de “conocimiento del negocio”. El proyecto debe ser entregado debidamente documentado, para que pueda ser aprovechado por el cliente.
             P Se recomienda hacer una revisión de la ejecución del proyecto para analizar qué se hizo bien, qué problemas y oportunidades de mejora se presentaron y cuáles fueron las lecciones aprendidas para mejorar procesos futuros. El constante monitoreo del modelo y los ocasionales ajustes pueden ser requeridos después de la entrega.
-
         
           .col-md-6
             figure
@@ -210,7 +209,7 @@
       .col-md-2.bloque_vertical2.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 El concepto #[em Big data] hace referencia al análisis masivo de datos (que pueden ser estructurados, semiestructurados o no estructurados). Se usa cuando, por la cantidad de datos o su complejidad, las herramientas de #[em hardware] y #[em software] tradicionales no son capaces de almacenar y/o procesar dichos datos, en un tiempo razonable. Lo que se busca con el #[em Big data] al interior de las organizaciones, es aprovechar esta gran cantidad de información. Su objetivo es brindar las herramientas y metodologías para poder procesar los datos, analizarlos y obtener de ellos insights que les brinden una ventaja competitiva y una toma de decisiones soportada en el conocimiento y la experiencia y no en la intuición.
+          p.mb-0 El concepto #[em Big data] hace referencia al análisis masivo de datos (que pueden ser estructurados, semiestructurados o no estructurados). Se usa cuando, por la cantidad de datos o su complejidad, las herramientas de #[em hardware] y #[em software] tradicionales no son capaces de almacenar y/o procesar dichos datos, en un tiempo razonable. Lo que se busca con el #[em Big data] al interior de las organizaciones es aprovechar esta gran cantidad de información. Su objetivo es brindar las herramientas y metodologías para poder procesar los datos, analizarlos y obtener de ellos insights que les brinden una ventaja competitiva y una toma de decisiones soportada en el conocimiento y la experiencia y no en la intuición.
     
     .row.justify-content-center
       .col-md-12
@@ -417,7 +416,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p(data-aos="fade-down").mb-4 El #[em Open data] o datos abiertos, son datos que pueden ser reutilizados y redistribuidos libremente por las personas, sin mayores restricciones (en algunos casos el único requerimiento para su uso, es la atribución al autor y que, al compartirse, conserve los mismos permisos). 
+        p(data-aos="fade-down").mb-4 El #[em Open data] o datos abiertos son datos que pueden ser reutilizados y redistribuidos libremente por las personas, sin mayores restricciones (en algunos casos el único requerimiento para su uso, es la atribución al autor y que, al compartirse, conserve los mismos permisos). 
         p(data-aos="fade-down").mb-4 Tal y cómo se expresa en el portal de #[em Open data] del Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia (MinTIC, s.f.).
         br
         .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4

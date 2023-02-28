@@ -165,7 +165,7 @@ export default {
     {
       termino: 'CRM',
       significado:
-        'Customer Relationship Management es un <em>software</em> que permite a las empresas rastrear cada interacción con los usuarios, leads y clientes.',
+        ' Customer Relationship Management es un <em>software</em> que permite a las empresas rastrear cada interacción con los usuarios, <em>leads</em> y clientes.',
     },
     {
       termino: 'ERP',
