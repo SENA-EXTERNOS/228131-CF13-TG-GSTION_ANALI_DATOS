@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Introducción a la ciencia de datos',
     descripcionCurso:
-      'La ciencia de datos es una profesión cada vez más demandada por las empresas a nivel mundial debido a su importancia tanto estratégica como operativamente. Un buen uso de los datos permite a las organizaciones generar información útil, confiable y de calidad para la toma de decisiones más acertadas.',
+      'La ciencia de datos es una profesión cada vez más demandada por las empresas, a nivel mundial, debido a su importancia tanto estratégica como operativa. Un buen uso de los datos permite a las organizaciones generar información útil, confiable y de calidad para la toma de decisiones más acertadas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -115,47 +115,47 @@ export default {
   },
   complementario: [
     {
-      tema: 'Apache Hadoop',
-      referencia: 'Amazon. (2022). Apache Hadoop en Amazon.',
+      tema: 'Conceptos y aplicaciones de la ciencia de datos',
+      referencia: 'Amazon. (2022). <em>Apache Hadoop en Amazon</em>.',
       tipo: 'Sitio web',
       link: 'https://aws.amazon.com/es/elasticmapreduce/details/hadoop/ ',
     },
     {
-      tema: 'Datos abiertos',
+      tema: 'Conceptos y aplicaciones de la ciencia de datos',
       referencia:
-        'MINTIC. (s.f.). Guía para el uso y aprovechamiento de Datos Abiertos de Colombia.',
+        'MINTIC. (s.f.). <em>Guía para el uso y aprovechamiento de Datos Abiertos de Colombia.</em>',
       tipo: 'PDF',
       link:
         'https://herramientas.datos.gov.co/sites/default/files/Guia%20de%20Datos%20Abiertos%20de%20Colombia.pdf',
     },
     {
-      tema: 'Lineamientos para anonimización de datos',
+      tema: 'Conceptos y aplicaciones de la ciencia de datos',
       referencia:
-        'Colombia Ministerio de Salud. (2019). Lineamientos para la anonimización de datos del Sistema Nacional de Estudios y encuestas poblacionales para la salud.',
+        'Colombia Ministerio de Salud. (2019). <em>Lineamientos para la anonimización de datos del Sistema Nacional de Estudios y encuestas poblacionales para la salud.</em>',
       tipo: 'PDF',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/ED/GCFI/lineamientos-anonimizacion-sistema-encuestas.pdf',
     },
     {
-      tema: '<em>Scikit-learn</em>',
+      tema: 'Conceptos y aplicaciones de la ciencia de datos',
       referencia:
-        '<em>Scikit-Learn.</em> (2022). <em>scikit-learn</em>: machine learning in Python.',
+        'Scikit-Learn. (2022). scikit-learn: <em>machine learning in Python.</em> ',
       tipo: 'Sitio web',
       link: 'https://scikit-learn.org/stable/',
     },
     {
-      tema: 'TensorFlow',
+      tema: 'Conceptos y aplicaciones de la ciencia de datos',
       referencia:
-        'TensorFlow. (2022). Crear modelos de aprendizaje automático de nivel de producción con TensorFlow',
+        'TensorFlow. (2022). <em>Crear modelos de aprendizaje automático de nivel de producción con TensorFlow</em>',
       tipo: 'Sitio web',
       link: 'https://www.tensorflow.org/?hl=es-419',
     },
   ],
   glosario: [
     {
-      termino: '<em>Big Data</em>',
+      termino: '<em>Big data</em>',
       significado:
-        'se usa cuando por la cantidad de datos o su complejidad, las herramientas de <em>hardware</em> y <em>software</em> tradicionales no son capaces de almacenar y/o procesar dichos datos en un tiempo razonable.',
+        'se usa cuando, por la cantidad de datos o su complejidad, las herramientas de <em>hardware</em> y <em>software</em> tradicionales, no son capaces de almacenar y/o procesar dichos datos en un tiempo razonable.',
     },
     {
       termino: '<em>Clustering</em>',
@@ -165,12 +165,12 @@ export default {
     {
       termino: 'CRM',
       significado:
-        '<em>customer Relationship Management</em> es un <em>software</em> que permite a las empresas rastrear cada interacción con los usuarios, leads y clientes.',
+        'Customer Relationship Management es un <em>software</em> que permite a las empresas rastrear cada interacción con los usuarios, leads y clientes.',
     },
     {
       termino: 'ERP',
       significado:
-        '<em>enterprise resource manager</em> o sistemas de planificación de recursos empresariales son los sistemas de información gerenciales que integran y manejan muchos de los negocios asociados con las operaciones de producción y de los aspectos de distribución de una compañía en la producción de bienes o servicios.',
+        ' Enterprise Resource Manager o sistemas de planificación de recursos empresariales son los sistemas de información gerenciales que integran y manejan muchos de los negocios asociados con las operaciones de producción y de los aspectos de distribución de una compañía en la producción de bienes o servicios.',
     },
     {
       termino: '<em>HADOOP</em>',
@@ -180,7 +180,7 @@ export default {
     {
       termino: 'HDFS',
       significado:
-        '<em>hadoop Distributed File System</em> es el componente principal del ecosistema Hadoop. Esta pieza hace posible almacenar data sets masivos.',
+        ' Hadoop Distributed File System es el componente principal del ecosistema Hadoop. Esta pieza hace posible almacenar <em>data sets</em> masivos.',
     },
     {
       termino: 'IA',
@@ -200,7 +200,7 @@ export default {
     {
       termino: 'XML',
       significado:
-        'siglas en inglés de <em>aeXtensible Markup Language<em>, traducido como "Lenguaje de Marcado Extensible" o "Lenguaje de Marcas Extensible", es un metalenguaje que permite definir lenguajes de marcas desarrollado por el <em>World Wide Web</em>.',
+        'siglas en inglés de eXtensible Markup Language, traducido como "Lenguaje de Marcado Extensible" o "Lenguaje de Marca Extensible", es un metalenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web.',
     },
   ],
   referencias: [
@@ -234,7 +234,7 @@ export default {
     },
     {
       referencia:
-        'Piattini, M., & Ruiz, F. (2020). <em>Gobierno y Gestión de las Tecnologías y los Sistemas de Información</em>. Ra-Ma.',
+        'Piattini, M. & Ruiz, F. (2020). <em>Gobierno y Gestión de las Tecnologías y los Sistemas de Información.</em> Ra-Ma. ',
       link:
         'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/gobierno-y-gestion-de-las-tecnologias-y-los-sistemas-de-informacion-1591724977',
     },

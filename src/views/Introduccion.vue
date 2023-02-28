@@ -12,10 +12,9 @@
       .col-md-2.bloque_vertical.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 Querido aprendiz, sea bienvenido a este componente formativo, donde podrá adquirir conocimientos relacionados con la ciencia de datos y cómo aplicarla en su organización. Aquí conocerá la estructura básica de un proyecto de ciencia de datos, así como las principales técnicas de análisis y clasificación de información usadas en la actualidad. Aprenderá conceptos básicos de #[i Big Data], datos abiertos y posibles fuentes de información para los proyectos a ejecutar.
+          p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde podrá adquirir conocimientos relacionados con la ciencia de datos y cómo aplicarla en su organización. Aquí conocerá la estructura básica de un proyecto de ciencia de datos, así como las principales técnicas de análisis y clasificación de la información, utilizadas en la actualidad. Aprenderá conceptos básicos de #[em Big data], datos abiertos y posibles fuentes de información para los proyectos a ejecutar.
         .cajon-b.cajon-x.color-primario.p-3.mb-5.abajo-derecha
-          p.mb-0 En el siguiente enlace encontrará el video de introducción para que se relacione con la temática que se trabajará durante esta etapa formativa.
-          p.mb-0 #[b ¡Muchos éxitos en la culminación de este componente formativo!].
+          p.mb-0 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .row.justify-content-center.align-items-center.md-5   
       .col-lg-12(data-aos="fade-left")     
