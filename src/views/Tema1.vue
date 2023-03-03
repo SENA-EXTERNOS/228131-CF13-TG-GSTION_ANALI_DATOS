@@ -17,12 +17,12 @@
         .cajon-b.color-primario.p-3.mb-4.abajo-derecha
           .bloque-texto-b.p-4
             .bloque-texto-f__comillas
-              i.fas.fa-quote-left
-              i.fas.fa-quote-right
+             
+              
               p.mb-0 La ciencia de datos es el estudio de datos con el fin de extraer información significativa para empresas. Es un enfoque multidisciplinario que combina principios y prácticas del campo de las matemáticas, la estadística, la inteligencia artificial y la ingeniería de computación, para analizar grandes cantidades de datos. Este análisis permite a los científicos de datos plantear y responder a preguntas como “qué pasó”, “por qué pasó”, “qué pasará” y “qué se puede hacer con los resultados”. 
               .row.mb-4
               .col-11.d-inline-flex.justify-content-end.align-items-center
-                p.mb-0.text-bold (Amazon, 2022)
+                
         
     .row.justify-content-center.mb-4
       .col-xl-12
@@ -50,7 +50,7 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ciencias de la computación")( style="background-color: #1389f813;border:solid 4px #1389f82d")
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-8.mb-4
-            p El conocimiento en este campo, permite programar y administrar las tecnologías necesarias para el almacenamiento, procesamiento, uso y presentación de los datos. Lenguajes de programación (Python, R), motores de bases de datos, requerimientos de #[em hardware] y #[em software] son algunas de las áreas relacionadas que se usan día a día en proyectos de ciencia de datos y esto sin mencionar las nuevas tecnologías, utilizadas cuando se debe trabajar con grandes cantidades de información (#[em Big data]).
+            p El conocimiento en este campo permite programar y administrar las tecnologías necesarias para el almacenamiento, procesamiento, uso y presentación de los datos. Lenguajes de programación (Python, R), motores de bases de datos, requerimientos de #[em hardware] y #[em software] son algunas de las áreas relacionadas que se usan día a día en proyectos de ciencia de datos y esto sin mencionar las nuevas tecnologías, utilizadas cuando se debe trabajar con grandes cantidades de información (#[em Big data]).
           .col-xl-3.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img3_2.svg', alt='')
@@ -133,7 +133,7 @@
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
                   .col-12
-                    p.mb-0 ¿Qué grupo? (agrupación en clústeres).
+                    p.mb-0 ¿Qué grupo? (agrupación en <em>clústeres</em>).
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
                   .col-12
@@ -168,7 +168,7 @@
       
         .row(titulo="Implementación y despliegue")
           .col-md-6.mb-4.mb-md-0
-            p Cuando ya se tienen los modelos evaluados y seleccionados, se publican y utilizan para procesar otros datos, ya sea en tiempo real o por lotes. Por lo general, para la implementación de los modelos, se utiliza una interfaz de API (Application Programming Interface - Interfaz de Programación de Aplicaciones) abierta, que permite que el modelo sea utilizado por otras aplicaciones, como: tableros de control, sitios web, hojas de cálculo y aplicaciones en línea o móviles. Esta fase es de gran importancia, porque un modelo solo es útil hasta que el cliente o la organización puede acceder a sus resultados.
+            p Cuando ya se tienen los modelos evaluados y seleccionados, se publican y utilizan para procesar otros datos, ya sea en tiempo real o por lotes. Por lo general, para la implementación de los modelos, se utiliza una interfaz de API (<em>Application Programming Interface</em> - Interfaz de Programación de Aplicaciones) abierta, que permite que el modelo sea utilizado por otras aplicaciones, como: tableros de control, sitios web, hojas de cálculo y aplicaciones en línea o móviles. Esta fase es de gran importancia, porque un modelo solo es útil hasta que el cliente o la organización puede acceder a sus resultados.
         
           .col-md-6
             figure
@@ -209,7 +209,7 @@
       .col-md-2.bloque_vertical2.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 El concepto #[em Big data] hace referencia al análisis masivo de datos (que pueden ser estructurados, semiestructurados o no estructurados). Se usa cuando, por la cantidad de datos o su complejidad, las herramientas de #[em hardware] y #[em software] tradicionales no son capaces de almacenar y/o procesar dichos datos, en un tiempo razonable. Lo que se busca con el #[em Big data] al interior de las organizaciones es aprovechar esta gran cantidad de información. Su objetivo es brindar las herramientas y metodologías para poder procesar los datos, analizarlos y obtener de ellos insights que les brinden una ventaja competitiva y una toma de decisiones soportada en el conocimiento y la experiencia y no en la intuición.
+          p.mb-0 El concepto #[em Big data] hace referencia al análisis masivo de datos (que pueden ser estructurados, semiestructurados o no estructurados). Se usa cuando, por la cantidad de datos o su complejidad, las herramientas de #[em hardware] y #[em software] tradicionales no son capaces de almacenar y/o procesar dichos datos, en un tiempo razonable. Lo que se busca con el #[em Big data] al interior de las organizaciones es aprovechar esta gran cantidad de información. Su objetivo es brindar las herramientas y metodologías para poder procesar los datos, analizarlos y obtener de ellos <em>insights</em> que les brinden una ventaja competitiva y una toma de decisiones soportada en el conocimiento y la experiencia y no en la intuición.
     
     .row.justify-content-center
       .col-md-12
@@ -252,7 +252,7 @@
               b Nota: 
               | tomada de #[em Big data 101 Module 2 Video 1]. (2016). 
 
-      
+    p A continuación, se especifican cada una de estas categorías.  
     .row.justify-content-center.mb-5
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema1/img18.svg' alt='AvatarTop')
@@ -284,7 +284,7 @@
               img(src='@/assets/curso/temas/tema1/img21.svg', alt='')              
           .col-md-8.mb-4.mb-md-0
             h4 Volumen
-            p Se refiere a la cantidad de datos, la cual viene creciendo año a año. Hace poco tiempo ya se hablaba de datos en cantidades de #[em petabytes] y ahora se empieza a hablar de exabytes y #[em zettabytes], cantidades inimaginables hace algunas décadas.
+            p Se refiere a la cantidad de datos, la cual viene creciendo año a año. Hace poco tiempo ya se hablaba de datos en cantidades de #[em petabytes] y ahora se empieza a hablar de <em>exabytes</em> y #[em zettabytes], cantidades inimaginables hace algunas décadas.
       .py-3.py-md-4(titulo="Variedad")
         .row
           .col-md-4.mb-4.mb-md-0
@@ -347,7 +347,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        p(data-aos="fade-down").mb-4 Es fundamental analizar la veracidad y confiabilidad de las fuentes de información seleccionadas, pues si los datos obtenidos no cumplen con los criterios de calidad, es muy probable que los resultados del análisis sean erróneos o incompletos.
+        p(data-aos="fade-down").mb-4 Es fundamental analizar la veracidad y confiabilidad de las fuentes de información seleccionadas, pues, si los datos obtenidos no cumplen con los criterios de calidad, es muy probable que los resultados del análisis sean erróneos o incompletos.
         p(data-aos="fade-down").mb-4 Los siguientes son algunos de los tipos de fuentes de información:
     
     .tarjeta.tarjeta--azul.p-4.mb-5
@@ -355,7 +355,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Fuente de información interna
-            p Se refiere a todas aquellas fuentes que provienen de investigaciones internas o de la operación diaria de la propia organización, almacenadas en su sistema de información y que pueden intercambiarse con clientes y proveedores. En estas fuentes de datos, se incluyen todas aquellas que almacenan los datos generados por los procesos internos de la organización, como son la gestión comercial, las ventas, los inventarios, los recursos humanos, clientes y demás. Es aquí donde los sistemas de información empresariales cobran gran importancia en el registro y gestión de las actividades como, por ejemplo, el #[b CRM]: Customer Relationship Management - Gestión de Relación con el Cliente, o el #[b ERP]: Enterprise Resource Planning - Planificador de Recursos Empresariales.
+            p Se refiere a todas aquellas fuentes que provienen de investigaciones internas o de la operación diaria de la propia organización, almacenadas en su sistema de información y que pueden intercambiarse con clientes y proveedores. En estas fuentes de datos, se incluyen todas aquellas que almacenan los datos generados por los procesos internos de la organización, como son la gestión comercial, las ventas, los inventarios, los recursos humanos, clientes y demás. Es aquí donde los sistemas de información empresariales cobran gran importancia en el registro y gestión de las actividades como, por ejemplo, el #[b CRM]: <em>Customer Relationship Management</em> - Gestión de Relación con el Cliente, o el #[b ERP]: <em>Enterprise Resource Planning</em> - Planificador de Recursos Empresariales.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img26.svg', alt='')
@@ -364,7 +364,7 @@
           .col-md-6.mb-4.mb-md-0
             h3 Fuentes de información externa 
             p Son aquellas que tienen su origen por fuera de la organización, por ejemplo, agencias externas, empresas de investigación o entidades gubernamentales. Estas fuentes complementan las fuentes internas y ayudan a mejorar el análisis a realizar, ofreciendo información del contexto que no tenía la organización.
-            p Algunos ejemplos de las fuentes de información externa, son los datos abiertos (#[em open data]), los datos pagos y los datos de redes sociales. Los datos abiertos son datos disponibles de forma gratuita, casi siempre por entidades gubernamentales y que todos pueden usar y redistribuir sin condiciones ni restricciones de derechos de autor. Los datos pagos son datos disponibles de forma comercial, creados o adquiridos por el proveedor de datos, que se ofrecen por un valor a la organización y que pueden ser usados por esta, pero no redistribuidos o publicados (por ejemplo, las bases de datos de registros en las cámaras de comercio). Los datos de redes sociales son todos los datos compartidos por los usuarios en las plataformas de redes sociales y que, mediante técnicas de Web Scraping, pueden ser descargados de estos sitios y aprovechados en los proyectos de ciencias de datos de la organización, como los comentarios de las publicaciones realizadas en Twitter, por la organización, para evaluar el nivel de satisfacción de los clientes, con los productos o servicios ofrecidos.
+            p Algunos ejemplos de las fuentes de información externa, son los datos abiertos (#[em open data]), los datos pagos y los datos de redes sociales. Los datos abiertos son datos disponibles de forma gratuita, casi siempre por entidades gubernamentales y que todos pueden usar y redistribuir sin condiciones ni restricciones de derechos de autor. Los datos pagos son datos disponibles de forma comercial, creados o adquiridos por el proveedor de datos, que se ofrecen por un valor a la organización y que pueden ser usados por esta, pero no redistribuidos o publicados (por ejemplo, las bases de datos de registros en las cámaras de comercio). Los datos de redes sociales son todos los datos compartidos por los usuarios en las plataformas de redes sociales y que, mediante técnicas de <em>Web Scraping</em>, pueden ser descargados de estos sitios y aprovechados en los proyectos de ciencias de datos de la organización, como los comentarios de las publicaciones realizadas en Twitter, por la organización, para evaluar el nivel de satisfacción de los clientes, con los productos o servicios ofrecidos.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img26.svg', alt='')

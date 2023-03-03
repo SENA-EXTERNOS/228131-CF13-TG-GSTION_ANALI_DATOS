@@ -165,22 +165,22 @@ export default {
     {
       termino: 'CRM',
       significado:
-        ' Customer Relationship Management es un <em>software</em> que permite a las empresas rastrear cada interacción con los usuarios, <em>leads</em> y clientes.',
+        ' <em>Customer Relationship Management<em> es un <em>software</em> que permite a las empresas rastrear cada interacción con los usuarios, <em>leads</em> y clientes.',
     },
     {
       termino: 'ERP',
       significado:
-        ' Enterprise Resource Manager o sistemas de planificación de recursos empresariales son los sistemas de información gerenciales que integran y manejan muchos de los negocios asociados con las operaciones de producción y de los aspectos de distribución de una compañía en la producción de bienes o servicios.',
+        ' <em>Enterprise Resource Manager</em> o sistemas de planificación de recursos empresariales son los sistemas de información gerenciales que integran y manejan muchos de los negocios asociados con las operaciones de producción y de los aspectos de distribución de una compañía en la producción de bienes o servicios.',
     },
     {
-      termino: '<em>HADOOP</em>',
+      termino: 'HADOOP',
       significado:
-        'es un <em>framework</em> que permite el procesamiento distribuido de grandes conjuntos de datos (<em>Big Data</em>) a través de <em>clusters</em> de computadores utilizando modelos de programación sencillos.',
+        'es un <em>framework</em> que permite el procesamiento distribuido de grandes conjuntos de datos (<em>Big data</em>) a través de <em>clusters</em> de computadores utilizando modelos de programación sencillos.',
     },
     {
       termino: 'HDFS',
       significado:
-        ' Hadoop Distributed File System es el componente principal del ecosistema Hadoop. Esta pieza hace posible almacenar <em>data sets</em> masivos.',
+        ' Hadoop <em>Distributed File System</em> es el componente principal del ecosistema Hadoop. Esta pieza hace posible almacenar <em>data sets</em> masivos.',
     },
     {
       termino: 'IA',
@@ -200,7 +200,7 @@ export default {
     {
       termino: 'XML',
       significado:
-        'siglas en inglés de eXtensible Markup Language, traducido como "Lenguaje de Marcado Extensible" o "Lenguaje de Marca Extensible", es un metalenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web.',
+        'siglas en inglés de <em>eXtensible Markup Language</em>, traducido como "Lenguaje de Marcado Extensible" o "Lenguaje de Marca Extensible", es un metalenguaje que permite definir lenguajes de marcas desarrollado por el <em>World Wide Web</em>.',
     },
   ],
   referencias: [
