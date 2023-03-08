@@ -463,7 +463,7 @@
           p(data-aos="fade-down") Existen numerosas iniciativas de datos abiertos, siendo los Estados Unidos y Gran Bretaña pioneros y ejemplos a nivel mundial. Las siguientes son algunas de estas iniciativas presentadas como material adicional que podrá ser utilizado como fuente de información para ejercicios de ciencia de datos:
 
     .row.justify-content-center.align-items-center.md-5
-      .col-12
+      .col-md-7
         .titulo-sexto.color-acento-contenido
           h5(data-aos="fade-down") Tabla 1
           br
