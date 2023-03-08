@@ -14,14 +14,10 @@
         p(data-aos="fade-down") La ciencia de datos es uno de los campos de estudio más atractivos y mejor pagados en la actualidad. Gracias a los avances de la tecnología, se puede crear, almacenar y procesar, grandes cantidades de información que aumentan año tras año. Es en la explotación de esta información que los científicos de datos, empleando diversas competencias, han encontrado un insumo valioso para las organizaciones, debido a que en la información se revelan las tendencias, patrones y comportamientos de estos negocios y, es gracias a los datos y a la información, que se genera conocimiento práctico y útil para crear e innovar. 
         p.mb-3(data-aos="fade-down") La empresa Amazon (2022), líder en procesos de computación en la nube y comercio electrónico, define ciencia de datos como:
         
-        .cajon-b.color-primario.p-3.mb-4.abajo-derecha
-          .bloque-texto-b.p-4
+        .cajon-b.color-primario.p-3.ps-0.mb-4.abajo-derecha
+          .bloque-texto-b
             .bloque-texto-f__comillas
-             
-              
               p.mb-0 La ciencia de datos es el estudio de datos con el fin de extraer información significativa para empresas. Es un enfoque multidisciplinario que combina principios y prácticas del campo de las matemáticas, la estadística, la inteligencia artificial y la ingeniería de computación, para analizar grandes cantidades de datos. Este análisis permite a los científicos de datos plantear y responder a preguntas como “qué pasó”, “por qué pasó”, “qué pasará” y “qué se puede hacer con los resultados”. 
-              .row.mb-4
-              .col-11.d-inline-flex.justify-content-end.align-items-center
                 
         
     .row.justify-content-center.mb-4
@@ -467,7 +463,7 @@
           p(data-aos="fade-down") Existen numerosas iniciativas de datos abiertos, siendo los Estados Unidos y Gran Bretaña pioneros y ejemplos a nivel mundial. Las siguientes son algunas de estas iniciativas presentadas como material adicional que podrá ser utilizado como fuente de información para ejercicios de ciencia de datos:
 
     .row.justify-content-center.align-items-center.md-5
-      .col-7
+      .col-12
         .titulo-sexto.color-acento-contenido
           h5(data-aos="fade-down") Tabla 1
           br

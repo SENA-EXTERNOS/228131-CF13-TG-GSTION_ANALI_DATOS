@@ -116,22 +116,22 @@ export default {
   complementario: [
     {
       tema: 'Conceptos y aplicaciones de la ciencia de datos',
-      referencia: 'Amazon. (2022). <em>Apache Hadoop en Amazon</em>.',
+      referencia: 'Amazon. (2022). <em>Apache Hadoop en Amazon.</em> ',
       tipo: 'Sitio web',
-      link: 'https://aws.amazon.com/es/elasticmapreduce/details/hadoop/ ',
+      link: 'https://aws.amazon.com/es/elasticmapreduce/details/hadoop/',
     },
     {
       tema: 'Conceptos y aplicaciones de la ciencia de datos',
       referencia:
-        'MINTIC. (s.f.). <em>Guía para el uso y aprovechamiento de Datos Abiertos de Colombia.</em>',
+        'MINTIC. (s.f.). <em>Guía para el uso y aprovechamiento de Datos Abiertos de Colombia.</em> ',
       tipo: 'PDF',
       link:
-        'https://herramientas.datos.gov.co/sites/default/files/Guia%20de%20Datos%20Abiertos%20de%20Colombia.pdf',
+        'https://herramientas.datos.gov.co/sites/default/files/Guia%20de%20Datos%20Abiertos%20de%20Colombia.pdf ',
     },
     {
       tema: 'Conceptos y aplicaciones de la ciencia de datos',
       referencia:
-        'Colombia Ministerio de Salud. (2019). <em>Lineamientos para la anonimización de datos del Sistema Nacional de Estudios y encuestas poblacionales para la salud.</em>',
+        'Ministerio de Salud y Protección Social. (2019). <em>Lineamientos para la anonimización de datos del Sistema Nacional de Estudios y encuestas poblacionales para la salud.</em>',
       tipo: 'PDF',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/ED/GCFI/lineamientos-anonimizacion-sistema-encuestas.pdf',
@@ -146,7 +146,7 @@ export default {
     {
       tema: 'Conceptos y aplicaciones de la ciencia de datos',
       referencia:
-        'TensorFlow. (2022). <em>Crear modelos de aprendizaje automático de nivel de producción con TensorFlow</em>',
+        'TensorFlow. (2022). <em>Crear modelos de aprendizaje automático de nivel de producción con TensorFlow.</em> ',
       tipo: 'Sitio web',
       link: 'https://www.tensorflow.org/?hl=es-419',
     },
