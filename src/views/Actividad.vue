@@ -14,7 +14,7 @@
         p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
 
         .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
+          .row.justify-content-around.align-items-center          
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Falso / Verdadero
             .col-auto
